@@ -3,6 +3,10 @@ using System;
 string name = null;
 List<string> list = new List<string>();
 
+object pos = Console.GetCursorPosition();
+
+Console.WriteLine(pos);
+
 void ChangeName()
 {
     Console.WriteLine("_____________________");
@@ -16,6 +20,8 @@ ChangeName();
 
 void Choose()
 {
+    Console.Clear();
+
     Console.WriteLine("_____________________");
     Console.WriteLine("Hello, " + name);
     Console.WriteLine("1. Add new node");
@@ -60,6 +66,8 @@ void AddToDoList()
 
 void CheckAllNodes()
 {
+    Console.Clear();
+
     Console.WriteLine("_____________________");
     Console.WriteLine("Elements in the list:");
     foreach (string element in list){
