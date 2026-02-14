@@ -64,18 +64,15 @@ void AddToDoList()
     Choose();
 }
 
-void CheckAllNodes()
-{
-    Console.Clear();
 
-    Console.WriteLine("_____________________");
-    Console.WriteLine("Elements in the list:");
-    foreach (string element in list){
-        Console.WriteLine(element);
-    }
-
-    Console.WriteLine("Press any key to continue...");
-    Console.ReadKey();
-
-    Choose();
-}
+// void CheckAllNodes()
+// {
+//     Console.WriteLine("_____________________");
+//     Console.WriteLine("Elements in the list:");
+//     foreach (string element in list){
+//         Console.WriteLine(element);
+//     }
+//     Console.WriteLine("Press any key to continue...");
+//     Console.ReadKey();
+//     Choose();
+// }
